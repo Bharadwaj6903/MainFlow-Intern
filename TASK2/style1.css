@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(17, 17, 17, 0.7);
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    background-color: black;
+    height: 35px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px 40px;
+    line-height: 32px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+aside {
+    height: 500px;
+    width: 500px;
+    float: left;
+}
+
+img {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+    z-index: 1;
+    border: 2px solid black;
+}
+
+header {
+    position: sticky;
+    top: 10px;
+    z-index: 2;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container section {
+    border: 2px solid black;
+    width: 90vh;
+    height: 20vh;
+    justify-content: space-evenly;
+    text-align: justify;
+    border-radius: 15px;
+    margin-left: 110px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sec:hover {
+    box-shadow: 2px 2px 4px red;
+    transition: box-shadow 0.5s;
+}
+
+#sec1 h1,
+#sec2 h1 {
+    display: inline;
+}
+
+section p,
+section ul {
+    margin-top: 10px;
+}
+
+#sec3 h1,
+#sec4 h1 {
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+section ul li,
+section p {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+#sec h1,
+#sec p,
+#sec li,
+span {
+    color: white;
+}
+
+h1 {
+    color: red;
+}
+
+main {
+    height: 1000px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+section h1 {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width:1000px) {
+    body {
+        width: 100%;
+    }
+    nav ul {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    aside img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    .container {
+        margin-top: 5%;
+        float: left;
+    }
+    .container section {
+        border: 2px solid black;
+        display: block;
+        margin: 7vh 0 0 7vh;
+        margin-left: 10vh;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        text-align: justify;
+        border-radius: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:574px) {
+    header {
+        position: static;
+    }
+    nav ul {
+        height: 30%;
+    }
+    header ul li {
+        display: block;
+    }
+    header ul {
+        margin-bottom: 10px;
+    }
+    .container {
+        float: left;
+        margin-top: 5%;
+    }
+    .container section {
+        border: 2px solid black;
+        margin: 7vh 7vh 0 7vh;
+        /*margin-left: 10vh;*/
+        width: 70%;
+        height: auto;
+        text-align: justify;
+        border-radius: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
