@@ -1,0 +1,43 @@
+    body {
+        margin: 0;
+        background-color: wheat;
+        color: black;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    form {
+        width: 350px;
+        height: auto;
+        margin: auto;
+        margin-top: 200px;
+        padding: 0.5rem 0 0 0.5rem;
+        background-color: white;
+        border-radius: 6px;
+        font-size: 15px;
+        color: black;
+        font-weight: 600;
+    }
+    
+    input {
+        width: 70%;
+    }
+    
+    input[type='textarea'] {
+        height: 4rem;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    
+    button {
+        width: 50%;
+        margin-left: 60px;
+        background-color: black;
+        color: red;
+        font-weight: 600;
+        border-radius: 8px;
+    }

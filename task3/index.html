@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Task 3</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact us</h1>
+        <form>
+
+            <p class="input">
+                <div>Name: </div><input type="text" name="username" id="name">
+                <div id="error1" style="color:red;font-size:300"></div>
+            </p>
+            <p class="input">
+                <div>Email: </div><input type="text" name="email" id="email">
+                <div id="error2" style="color:red;font-size:300"></div>
+            </p>
+            <p class="input">
+                <div>Phone: </div><input type="number" id="phone" />
+                <div id="error3" style="color:red;font-size:300"></div>
+            </p>
+            <p class="input">
+                <div> Enter your Query:</div>
+
+                <input type="textarea" id="query" />
+            </p>
+
+            <button type="submit">Submit</button>
+        </form>
+        <h3></h3>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
